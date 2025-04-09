@@ -23,3 +23,4 @@ Este es un microservicio para gestionar usuarios. Implementa un CRUD (crear, lee
 4. **Disponibilidad**:
     - Docker asegura que el microservicio sea fácil de desplegar, reiniciar y mantener en funcionamiento de forma continua. Además, el uso de Spring Boot garantiza un inicio rápido del servicio, mientras que la contenerización facilita la **monitorización**, la **replicación** y la **recuperación ante fallos**.
 
+5. **Seguridad: Asegurando que las peticiones sean válidas, implementando validaciones a nivel de controlador o servicio. Puedes agregar que usas validaciones de entrada con @Valid o alguna seguridad adicional si la implementaste, como enrutamiento seguro o manejo de excepciones
